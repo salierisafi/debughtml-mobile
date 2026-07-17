@@ -7,9 +7,9 @@ Nah, kita tinggal masukin seperti ini:
 ```
 di html nya, jika kita klik halaman web nya, maka langsung muncul keyboard.  
 
-Nah, untuk script mengambil input keyboard kita, itu agak beda, karena di hp, ketika kita mengetikkan printable character, hasil dari e.key nya malah Unidentified.  
+Nah, untuk script mengambil input keyboard kita, itu agak beda, karena di hp, ketika kita mengetikkan printable character, hasil dari `e.key` nya malah Unidentified.  
 
-Kita akan pakai fungsi getChar dari kode yang telah kita buat dan menggunakan async-await untuk menunggu output keluar.
+Kita akan pakai fungsi `getChar` dari kode yang telah kita buat dan menggunakan async-await untuk menunggu output keluar.
 ```javascript
 document.addEventListener('keydown', async (e) => {
 let char = await getChar(e);
