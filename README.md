@@ -17,4 +17,5 @@ let char = await getChar(e);
 console.log(char); // ganti dengan kode kalian
 });
 ```
-
+***
+**Munculin console.log di html mobile**
