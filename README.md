@@ -2,7 +2,7 @@
 
 Biasanya, kalau kita ingin munculin keyboard di html mobile, harus buat input dulu di html nya. Tujuan ini dibuat agar tidak perlu buat input lagi di html nya.
 Nah, kita tinggal masukin seperti ini:
-```
+```html
 <script src="https://cdn.jsdelivr.net/gh/salierisafi/toolshtml-mobile@main/keyboard.js"></script>
 ```
 di html nya, jika kita klik halaman web nya, maka langsung muncul keyboard.  
